@@ -15,9 +15,7 @@
 	}
 
 </script>
-
-<h1>Welcome to SvelteKit</h1>
 <div>
-    <h2>Staging</h2>
+    <h2>Data</h2>
     <p>{JSON.stringify(data)}</p>
 </div>
