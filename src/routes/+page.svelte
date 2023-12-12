@@ -3,8 +3,8 @@
 
     let data: any;
 
-    onMount(() => {
-        data = getData()
+    onMount(async() => {
+        data = await getData()
     });
 
     async function getData() {
